@@ -4,12 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+        </head>
 <body>
+    <!--This is a navigation bar-->
+
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="about.html">About</a></li>
+            <li class="nav-item"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+<!--This is the main content area-->
+    <main class="main"> 
    <p>Hello, World!</p>
    <p>This is a paragraph.</p>
-   <p>This is another paragraph.</p>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita sit culpa hic minus provident eos temporibus autem officiis at voluptatum, numquam, praesentium eaque repellat neque maxime. Perferendis omnis molestiae repellendus.</p>
 
-</body>
+   <section>
+      <h2>Section Title</h2>
+      <p>This is a section of content.</p>
+      <nav>
+         <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+         </ul>
+      </nav>
+   </section>
+
+   </main>
+  
+   <!--This is a footer -->
+   <footer>
+      <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+   
+  </body>
 </html>

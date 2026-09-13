@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery page</title>
+</head>
+<body>
+    
+   <h1>Gallery</h1>
+   <img src="/images/image/0b6c2c21e5f5ecb9b25e39457c96c1a1.jpg" alt="Gallery Image 1" width="500" height="600">
+   <img src="/images/image/0b6c2c21e5f5ecb9b25e39457c96c1a1.jpg" alt="Gallery Image 2" width="500" height="600">
+   <img src="/images/image/0b6c2c21e5f5ecb9b25e39457c96c1a1.jpg" alt="Gallery Image 3" width="500" height="600">
+
+   <hr>
+
+  <img
+src="/images/image/istockphoto-1071072892-612x612.jpg"
+alt="The time is 12:45."
+srcset="/images/image/istockphoto-1071072892-200px.png 200w, /images/image/istockphoto-1071072892-400px.png 400w"
+sizes="(width <= 600px) 200px, 50vw" />
+
+        <hr>
+        <video controls width="250">
+<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" media="(width >= 800px)"/>
+<source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+   <p>Your browser doesn't support HTML video. Here is a <a 
+href="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm">link to the video</a> instead.</p>
+</video>
+
+<figure>
+<img src="/images/image/59_2.500x500.jpg" alt="Revenue growth chart.">
+<img src="/images/image/bda80e9324bd6d5c83b84b6eac5a1e5d.jpg" alt="User acquisition chart.">
+<figcaption>Product Performance Charts</figcaption>
+</figure>
+
+ <picture>
+<source
+srcset="/images/image/59_2.500x500.jpg"
+media="(orientation: portrait)"/>
+<img src="/images/image/59_2.500x500.jpg" alt=""/>
+</picture>
+
+
+
+</body>
+<html><iframe width="420" height="315"
+src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+
+ <svg width="200" 
+height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="80" stroke="black"
+   stroke-width="3" fill="red" />
+</svg>
+
+
+<svg version="1.1"   width="300" height="200"   xmlns="http://www.w3.org/2000/svg">
+<rect width="100%" height="100%" fill="red" />
+<circle cx="150" cy="100" r="80" fill="green" />
+<text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+
+<path d="M 10 10 H 90 V 90 H 10 Z" fill="blue" stroke="white" stroke-width="3"/>
+
+
+<path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 
+2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" stroke="white" stroke-width="3"></path>
+</svg>
+
+
+<svg class="h-6 w-6 leading-none text-gray-400 stroke-current" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+    </svg>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"  d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+
+
+    <symbol viewBox="0 0 24 24" id="favorite">
+<path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 
+2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"></path>
+</symbol>
+<svg class="icon icon--inline"
+<use xlink:href="#favorite"></use>
+</svg>
